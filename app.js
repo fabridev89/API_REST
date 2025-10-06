@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { createClient, getAllClients, updateClient } = require('./clientes-api-node/src/controllers/clienteController');
 const app = express();
-const port = 8000;
+const port = 3000;
 
 // Middleware
 app.use(bodyParser.json());
